@@ -1,0 +1,90 @@
+
+
+/* Overall */
+body {background: white; font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: 300;}
+
+.bg-darkGreen{background-color: #006272;}
+.bg-mediumGreen{background-color: #5f929f;}
+.bg-liteGreen{background-color: #cfdde1;}
+.bg-liteWhite{background-color: #f9f9f9;}
+.bg-white{background-color: #ffffff;}
+
+.txt-darkGreen{color: #006272;}
+.txt-liteGreen{color: #cfdde1;}
+.txt-white{color: #ffffff;}
+
+/* Tabs */
+#myTab{margin-bottom: 0px;}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus,.nav > li > a:hover, .nav > li > a:focus {background-color: #5f929f;border: none;color: white;border: none;border-radius: 0px;}
+.nav-tabs > li {font-size: 0.9em}
+.nav-tabs > li > a {min-height: 40px;border: none;color: white;max-width: 110px;}
+.nav > li > a:hover, .nav > li > a:focus {background-color: #5f929f;}
+.nav-tabs > li > a, .nav-pills > li > a {margin-right: 1px;}
+
+/*Tool tips */
+div.tooltip {					/* set the CSS for tooltip divs */
+  font: 12px sans-serif;		/* set the font type for the tooltips */
+  background-color: #FFFFFF;	/* set the colour of the rectangle */
+  border: 0px;					/* turn off the border (0px) */
+  pointer-events: none;			/* 'none' tells the mouse to ignore the rectangle */
+  color: black
+}
+/* SVG Styling */
+.color0fill{fill: #006171}
+.color1fill{fill: #5f929f}
+.color2fill{fill: #9fbcc4}
+.color3fill{fill: #e47a4d}
+.color4fill{fill: #c5b1a7}
+
+.color0stroke{stroke: #006171}
+.color1stroke{stroke: #5f929f}
+.color2stroke{stroke: #9fbcc4}
+.color3stroke{stroke: #e47a4d}
+.color4stroke{stroke: #c5b1a7}
+
+
+/* StrokeWidth */
+.sw1{stroke-width:1; fill:none}
+.sw2{stroke-width:2 }
+.sw3{stroke-width:3;fill:none }
+.sw4{stroke-width:4 }
+.sw5{stroke-width:5 }
+
+/* Graph Text Styling */
+.greyText{fill:#c8c8c8;font-family: 'Open Sans', sans-serif;font-size: 0.8em; text-length:100}
+
+
+/* Graph 1 */
+#graph1 .map path{stroke:white;stroke-width:0.5px}
+#graph1 .axis line {
+  fill: none;
+  stroke: #c8c8c8;
+  shape-rendering: crispEdges;
+}
+
+#graph1 .axis path {
+  fill: none;
+  stroke: #c8c8c8;
+  shape-rendering: crispEdges;
+}
+
+
+#graph1 .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+/* Graph 2 */
+
+
+/* Graph 3 */
+
+
+/* Graph 6 */
+.minheight{min-height: 175px}
+
+/* Graph 7 */
+
+/* Social */
+.st_fblike_hcount{top:3px;}
